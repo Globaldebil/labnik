@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">labnik</string>
+    <string name="log">Login</string>
+    <string name="pass">Password</string>
+    <string name="to">Войти</string>
+    <string-array name="logins">
+        <item>vasya@gmail.com</item>
+        <item>sanya@gmail.com</item>
+        <item>leha@mail.ru</item>
+        <item>vovan@gmail.com</item>
+        <item>yurets@gmail.com</item>
+    </string-array>
+    <string-array name="passwords">
+        <item>123456</item>
+        <item>qwerty</item>
+        <item>asdfgh</item>
+        <item>zxcvbn</item>
+        <item>mobillaba</item>
+    </string-array>
+    <string name="title_activity_laba1_result">Laba1Result</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/to_laba1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Лабораторная работа N1-2" />
+
+
+    <Button
+        android:id="@+id/to_laba3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Лабораторная работа N3" />
+
+    <Button
+        android:id="@+id/to_laba4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Лабораторная работа N4" />
+
+    <Button
+        android:id="@+id/to_laba5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Лабораторная работа N5" />
+</LinearLayout>
