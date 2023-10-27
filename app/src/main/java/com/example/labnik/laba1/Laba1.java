@@ -10,9 +10,9 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.labnik.R;
+import com.example.labnik.laba1.users.User;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Objects;
 
 public class Laba1 extends AppCompatActivity {
@@ -21,10 +21,9 @@ public class Laba1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_laba1);
-        ArrayList<User> users = new ArrayList<User>();
         String[] logins = getResources().getStringArray(R.array.logins);
         String[] passwords = getResources().getStringArray(R.array.passwords);
-        for(int i = 0; i < 5; i++) users.add(new User(logins[i], passwords[i]));
+        ArrayList<User> users = User.get(logins,passwords);
         Button login = findViewById(R.id.button_laba1);
         EditText email = findViewById(R.id.laba1_name);
         EditText pass = findViewById(R.id.laba1_password);
