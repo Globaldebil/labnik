@@ -18,8 +18,8 @@ public class Laba1Result extends AppCompatActivity {
     private ActivityLaba1ResultBinding binding;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void onCreate(Bundle savedInstanceBook) {
+        super.onCreate(savedInstanceBook);
 
         binding = ActivityLaba1ResultBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());

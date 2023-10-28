@@ -18,8 +18,8 @@ import java.util.Objects;
 public class Laba1 extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void onCreate(Bundle savedInstanceBook) {
+        super.onCreate(savedInstanceBook);
         setContentView(R.layout.activity_laba1);
         String[] logins = getResources().getStringArray(R.array.logins);
         String[] passwords = getResources().getStringArray(R.array.passwords);

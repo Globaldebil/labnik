@@ -14,8 +14,8 @@ import com.example.labnik.laba1.Laba1Result;
 public class MainActivity extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void onCreate(Bundle savedInstanceBook) {
+        super.onCreate(savedInstanceBook);
         setContentView(R.layout.activity_main);
         Button laba1 = findViewById(R.id.to_laba1);
         Button laba3 = findViewById(R.id.to_laba3);

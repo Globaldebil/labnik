@@ -17,8 +17,28 @@
         <item>zxcvbn</item>
         <item>mobillaba</item>
     </string-array>
+    <string-array name="books">
+        <item>Книга джунглей</item>
+        <item>Черновик</item>
+        <item>Ночной дозор</item>
+        <item>Зов Ктулху</item>
+        <item>Вий</item>
+        <item>Евгений Онегин</item>
+        <item>Вышмат для чайников</item>
+        <item>Ассемблер для чайников</item>
+    </string-array>
+    <string-array name="autors">
+        <item>Редьярд Киплинг</item>
+        <item>Сергей Лукьяненко</item>
+        <item>Сергей Лукьяненко</item>
+        <item>Говард Лавкрафт</item>
+        <item>Николай Гоголь</item>
+        <item>Александр Пушкин</item>
+        <item>Ершов</item>
+        <item>Хусаинов Н.Ш.</item>
+    </string-array>
     <string name="title_activity_laba1_result">Laba1Result</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Список книг</string>
+    <string name="title_dashboard">Выбранная книга</string>
+    <string name="title_notifications">Уведомления</string>
 </resources>
